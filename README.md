@@ -229,7 +229,6 @@ GPT-5.4 审稿 → 识别弱点 → 建议实验 → Claude 写脚本、部署�
 | [`experiment-bridge`](skills/experiment-bridge/SKILL.md) | 实验计划 → 代码 → 审查 → 部署 → 收集 | — |
 | [`run-experiment`](skills/run-experiment/SKILL.md) | 部署到 local / remote / [Vast.ai](https://vast.ai) GPU | — |
 | [`monitor-experiment`](skills/monitor-experiment/SKILL.md) | 监控运行中的实验 | — |
-| [`vast-gpu`](skills/vast-gpu/SKILL.md) | Vast.ai GPU 租赁管理 | — |
 
 ### 🔁 Workflow 2: Auto Review Loop
 

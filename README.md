@@ -8,10 +8,6 @@
 
 [ARIS-Code CLI 独立版](docs/ARIS-Code-README_CN.md)
 
-![ARIS Logo](docs/aris_logo.svg)
-![Hero](docs/hero_combined.svg)
-![分数曲线](docs/auto_review_score_curve.png)
-
 ---
 
 ## 核心机制

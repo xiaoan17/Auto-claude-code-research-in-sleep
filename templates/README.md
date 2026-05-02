@@ -22,14 +22,6 @@ Ready-to-use templates for each ARIS workflow. Copy, fill in your content, and r
 | [IDEA_CANDIDATES_TEMPLATE_CN.md](IDEA_CANDIDATES_TEMPLATE_CN.md) | Workflow 1 | Idea 候选池中文模板 |
 | [EXPERIMENT_PLAN_TEMPLATE_CN.md](EXPERIMENT_PLAN_TEMPLATE_CN.md) | Workflow 1.5 | 实验计划中文模板 |
 
-### Patent Templates (`/patent-pipeline`)
-
-| Template | For Workflow | What to do |
-|----------|-------------|------------|
-| [INVENTION_BRIEF_TEMPLATE.md](INVENTION_BRIEF_TEMPLATE.md) | Patent Pipeline | Invention disclosure with technical problem, solution, advantages, figures |
-| [PATENT_CLAIMS_TEMPLATE.md](PATENT_CLAIMS_TEMPLATE.md) | `/claims-drafting` | Claims hierarchy worksheet with examples for CN/US/EP |
-| [PATENT_SPECIFICATION_TEMPLATE.md](PATENT_SPECIFICATION_TEMPLATE.md) | `/specification-writing` | Skeleton specification with all required sections |
-
 ### Compact Mode Templates (`— compact: true`)
 
 | Template | Written by | Purpose |
@@ -48,10 +40,3 @@ cp templates/EXPERIMENT_PLAN_TEMPLATE.md refine-logs/EXPERIMENT_PLAN.md
 /experiment-bridge
 ```
 
-### Patent Pipeline
-
-```bash
-cp templates/INVENTION_BRIEF_TEMPLATE.md patent/INVENTION_BRIEF.md
-# Edit with your invention details, then:
-/patent-pipeline "patent/INVENTION_BRIEF.md -- CN"
-```

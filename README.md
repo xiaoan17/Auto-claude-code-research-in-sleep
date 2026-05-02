@@ -266,7 +266,6 @@ GPT-5.4 审稿 → 识别弱点 → 建议实验 → Claude 写脚本、部署�
 | [`exa-search`](skills/exa-search/SKILL.md) | AI 驱动的 Web 搜索（`pip install exa-py`） | ✓ |
 | [`alphaxiv`](skills/alphaxiv/SKILL.md) | AlphaXiv 单篇论文快速查询 | — |
 | [`pixel-art`](skills/pixel-art/SKILL.md) | 像素艺术 SVG 生成 | — |
-| [`feishu-notify`](skills/feishu-notify/SKILL.md) | [飞书/Lark](#-飞书集成可选) 通知（默认关闭） | — |
 | [`proof-writer`](skills/proof-writer/SKILL.md) | 数学证明撰写 | — |
 | [`proof-checker`](skills/proof-checker/SKILL.md) | 跨模型证明验证 | ✓ |
 | [`paper-claim-audit`](skills/paper-claim-audit/SKILL.md) | 论文-证据交叉验证 | — |
@@ -290,9 +289,7 @@ GPT-5.4 审稿 → 识别弱点 → 建议实验 → Claude 写脚本、部署�
 |------|------|------|
 | [`research-refine`](skills/research-refine/SKILL.md) | 通用 | 将模糊 idea 转化为问题锚定的方法提案 |
 | [`experiment-plan`](skills/experiment-plan/SKILL.md) | 通用 | 驱动式实验路线图 |
-| [`comm-lit-review`](skills/comm-lit-review/SKILL.md) | 通信/无线 | IEEE/ACM 领域文献综述 |
 | [`dse-loop`](skills/dse-loop/SKILL.md) | 架构/EDA | 自主设计空间探索（gem5, Yosys） |
-| [`idea-discovery-robot`](skills/idea-discovery-robot/SKILL.md) | 机器人/具身AI | Workflow 1 的机器人领域适配 |
 | [`writing-systems-papers`](skills/writing-systems-papers/SKILL.md) | 系统 | OSDI/SOSP 级别系统论文写作蓝图 |
 | [`mermaid-diagram`](skills/mermaid-diagram/SKILL.md) | 通用 | Mermaid 图表（免费替代 paper-illustration） |
 
@@ -448,7 +445,6 @@ vastai set api-key YOUR_KEY
 |------|------|------|
 | 📚 Zotero | 本地文献库搜索 + Web API | [设置指南](#-zotero集成可选) |
 | 📝 Obsidian | Obsidian Vault 文献搜索 | [设置指南](#-obsidian集成可选) |
-| 📱 飞书/Lark | 实验通知、审批交互 | [设置指南](#-飞书集成可选) |
 | 📖 arXiv | arXiv API 论文搜索 | 自带，无需配置 |
 | 🔎 Semantic Scholar | 学术论文搜索 | 自带，无需配置 |
 | 🔗 Overleaf | 双向同步（需 Premium Git Bridge） | `/overleaf-sync setup` |
